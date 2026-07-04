@@ -83,11 +83,11 @@ function toggleTheme() {
   if (isLight) {
     document.documentElement.removeAttribute('data-theme');
     localStorage.setItem('advtasks_theme', 'dark');
-    $('#theme-toggle-btn').textContent = 'light mode';
+    $('#theme-toggle-btn').textContent = 'Light mode';
   } else {
     document.documentElement.setAttribute('data-theme', 'light');
     localStorage.setItem('advtasks_theme', 'light');
-    $('#theme-toggle-btn').textContent = 'dark mode';
+    $('#theme-toggle-btn').textContent = 'Dark mode';
   }
 }
 
